@@ -1,0 +1,14 @@
+# Pliki środowiska i klucze
+.env
+*.env
+
+# Notatniki z kluczami albo testami
+open_ai_k.ipynb
+open_ai_k.py
+
+# Cache i śmieci
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
