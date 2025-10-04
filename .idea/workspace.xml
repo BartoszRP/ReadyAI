@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8156398d-621c-4716-b03f-542d2c0787fc" name="Changes" comment="revert">
+    <list default="true" id="8156398d-621c-4716-b03f-542d2c0787fc" name="Changes" comment="Flask app finished">
+      <change afterPath="$PROJECT_DIR$/replicate_exp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chatbot_web_version/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chatbot_web_version/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
   "keyToString": {
     "Python.app.executor": "Run",
     "Python.chatbot_console memory_from_opanai.executor": "Run",
+    "Python.replicate_exp.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -66,7 +67,7 @@
       <recent name="D:\2_PROGRAMOWANIE\1_REPOS\Python_Projects\ReadyAI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RunManager" selected="Python.replicate_exp">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Chatbot_web_version" />
       <option name="ENV_FILES" value="" />
@@ -114,8 +115,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="replicate_exp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReadyAI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/replicate_exp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.replicate_exp" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.chatbot_console memory_from_opanai" />
       </list>
@@ -142,7 +167,7 @@
       <workItem from="1759523412808" duration="1483000" />
       <workItem from="1759524917001" duration="218000" />
       <workItem from="1759525725887" duration="436000" />
-      <workItem from="1759591796814" duration="2926000" />
+      <workItem from="1759591796814" duration="5512000" />
     </task>
     <task id="LOCAL-00001" summary="test_pycharm">
       <option name="closed" value="true" />
@@ -168,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759524777108</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Flask app finished">
+      <option name="closed" value="true" />
+      <created>1759594962930</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1759594962930</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,10 +222,12 @@
     <MESSAGE value="start aplikacji w FLASK" />
     <MESSAGE value="test_pycharm" />
     <MESSAGE value="revert" />
-    <option name="LAST_COMMIT_MESSAGE" value="revert" />
+    <MESSAGE value="Flask app finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Flask app finished" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ReadyAI$chatbot_console_memory_from_opanai.coverage" NAME="chatbot_console memory_from_opanai Coverage Results" MODIFIED="1759593877624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ReadyAI$app.coverage" NAME="app Coverage Results" MODIFIED="1759594568924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chatbot_web_version" />
+    <SUITE FILE_PATH="coverage/ReadyAI$replicate_exp.coverage" NAME="replicate_exp Coverage Results" MODIFIED="1759599623124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ReadyAI$app.coverage" NAME="app Coverage Results" MODIFIED="1759594812020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chatbot_web_version" />
   </component>
 </project>
