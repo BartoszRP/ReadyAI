@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8156398d-621c-4716-b03f-542d2c0787fc" name="Changes" comment="test_pycharm">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chatbot_web_version/.idea/Chatbot_web_version.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chatbot_web_version/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chatbot_web_version/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chatbot_web_version/static/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chatbot_web_version/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chatbot_web_version/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ReadyAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ReadyAI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chatbot_web_version/test_pycharm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Chatbot_web_version/app.py" afterDir="false" />
+    <list default="true" id="8156398d-621c-4716-b03f-542d2c0787fc" name="Changes" comment="revert">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chatbot_web_version/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chatbot_web_version/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;BartoszRP&quot;
-  }
+  &quot;lastFilter&quot;: {}
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -48,7 +36,7 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="33ZSfMHN7SlwQ3WELCThheqoJKV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -60,9 +48,11 @@
     "Python.app.executor": "Run",
     "Python.chatbot_console memory_from_opanai.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/2_PROGRAMOWANIE/1_REPOS/Python_Projects/ReadyAI",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -71,6 +61,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\2_PROGRAMOWANIE\1_REPOS\Python_Projects\ReadyAI" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Chatbot_web_version" />
@@ -81,8 +76,9 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chatbot_web_version" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -128,8 +124,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26574.90" />
-        <option value="bundled-python-sdk-c1fac28bca04-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26574.90" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PY-252.26830.99" />
+        <option value="bundled-python-sdk-164cda30dcd9-0af03a5fa574-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26830.99" />
       </set>
     </attachedChunks>
   </component>
@@ -143,7 +139,10 @@
       <updated>1759523203697</updated>
       <workItem from="1759523204843" duration="5000" />
       <workItem from="1759523239048" duration="143000" />
-      <workItem from="1759523412808" duration="1045000" />
+      <workItem from="1759523412808" duration="1483000" />
+      <workItem from="1759524917001" duration="218000" />
+      <workItem from="1759525725887" duration="436000" />
+      <workItem from="1759591796814" duration="2926000" />
     </task>
     <task id="LOCAL-00001" summary="test_pycharm">
       <option name="closed" value="true" />
@@ -153,7 +152,23 @@
       <option name="project" value="LOCAL" />
       <updated>1759523502225</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test_pycharm">
+      <option name="closed" value="true" />
+      <created>1759524616527</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759524616527</updated>
+    </task>
+    <task id="LOCAL-00003" summary="revert">
+      <option name="closed" value="true" />
+      <created>1759524777108</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1759524777108</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,10 +186,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="start aplikacji w FLASK" />
     <MESSAGE value="test_pycharm" />
-    <option name="LAST_COMMIT_MESSAGE" value="test_pycharm" />
+    <MESSAGE value="revert" />
+    <option name="LAST_COMMIT_MESSAGE" value="revert" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ReadyAI$chatbot_console_memory_from_opanai.coverage" NAME="chatbot_console memory_from_opanai Coverage Results" MODIFIED="1759523305168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ReadyAI$chatbot_console_memory_from_opanai.coverage" NAME="chatbot_console memory_from_opanai Coverage Results" MODIFIED="1759593877624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ReadyAI$app.coverage" NAME="app Coverage Results" MODIFIED="1759594568924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chatbot_web_version" />
   </component>
 </project>
