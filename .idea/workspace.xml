@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8156398d-621c-4716-b03f-542d2c0787fc" name="Changes" comment="openrouter example done">
-      <change afterPath="$PROJECT_DIR$/openrouter_with_memory.py" afterDir="false" />
+    <list default="true" id="8156398d-621c-4716-b03f-542d2c0787fc" name="Changes" comment="openrouter with memory">
+      <change afterPath="$PROJECT_DIR$/quiz.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,58 +54,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.app.executor&quot;: &quot;Run&quot;,
-    &quot;Python.chatbot_console memory_from_opanai.executor&quot;: &quot;Run&quot;,
-    &quot;Python.openrouter_exp.executor&quot;: &quot;Run&quot;,
-    &quot;Python.replicate_exp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/2_PROGRAMOWANIE/1_REPOS/Python_Projects/ReadyAI&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.app.executor": "Run",
+    "Python.chatbot_console memory_from_opanai.executor": "Run",
+    "Python.chatbot_langchain_memory_aut_session.executor": "Run",
+    "Python.openrouter_exp.executor": "Run",
+    "Python.openrouter_with_memory.executor": "Run",
+    "Python.quiz.executor": "Run",
+    "Python.replicate_exp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/2_PROGRAMOWANIE/1_REPOS/Python_Projects/ReadyAI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\2_PROGRAMOWANIE\1_REPOS\Python_Projects\ReadyAI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.openrouter_with_memory">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Chatbot_web_version" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.13" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chatbot_web_version" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chatbot_web_version/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="chatbot_console memory_from_opanai" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.quiz">
+    <configuration name="chatbot_langchain_memory_aut_session" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ReadyAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -119,7 +98,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chatbot_console memory_from_opanai.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chatbot_langchain_memory_aut_session.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -174,6 +153,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="quiz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReadyAI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quiz.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="replicate_exp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ReadyAI" />
       <option name="ENV_FILES" value="" />
@@ -199,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.quiz" />
+        <item itemvalue="Python.chatbot_langchain_memory_aut_session" />
         <item itemvalue="Python.openrouter_with_memory" />
         <item itemvalue="Python.openrouter_exp" />
         <item itemvalue="Python.replicate_exp" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.chatbot_console memory_from_opanai" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +231,10 @@
       <workItem from="1759524917001" duration="218000" />
       <workItem from="1759525725887" duration="436000" />
       <workItem from="1759591796814" duration="6430000" />
-      <workItem from="1759642566458" duration="366000" />
+      <workItem from="1759642566458" duration="711000" />
+      <workItem from="1759649089327" duration="40000" />
+      <workItem from="1759650276874" duration="729000" />
+      <workItem from="1759778620259" duration="5118000" />
     </task>
     <task id="LOCAL-00001" summary="test_pycharm">
       <option name="closed" value="true" />
@@ -279,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759613319765</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="openrouter with memory">
+      <option name="closed" value="true" />
+      <created>1759643224160</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1759643224160</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,10 +316,14 @@
     <MESSAGE value="Flask app finished" />
     <MESSAGE value="replicate example done" />
     <MESSAGE value="openrouter example done" />
-    <option name="LAST_COMMIT_MESSAGE" value="openrouter example done" />
+    <MESSAGE value="openrouter with memory" />
+    <option name="LAST_COMMIT_MESSAGE" value="openrouter with memory" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ReadyAI$openrouter_exp.coverage" NAME="openrouter_exp Coverage Results" MODIFIED="1759613196519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ReadyAI$openrouter_with_memory.coverage" NAME="openrouter_with_memory Coverage Results" MODIFIED="1759778712145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ReadyAI$chatbot_langchain_memory_aut_session.coverage" NAME="chatbot_langchain_memory_aut_session Coverage Results" MODIFIED="1759779004817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ReadyAI$quiz.coverage" NAME="quiz Coverage Results" MODIFIED="1759783753420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ReadyAI$chatbot_console_memory_from_opanai.coverage" NAME="chatbot_console memory_from_opanai Coverage Results" MODIFIED="1759593877624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ReadyAI$replicate_exp.coverage" NAME="replicate_exp Coverage Results" MODIFIED="1759599623124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ReadyAI$app.coverage" NAME="app Coverage Results" MODIFIED="1759594812020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chatbot_web_version" />
