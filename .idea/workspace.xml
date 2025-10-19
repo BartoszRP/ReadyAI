@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8156398d-621c-4716-b03f-542d2c0787fc" name="Changes" comment="quiz_console progress" />
+    <list default="true" id="8156398d-621c-4716-b03f-542d2c0787fc" name="Changes" comment="test check" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../MERITO_AI_CYBER_2025" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
@@ -232,7 +232,7 @@
       <workItem from="1759649089327" duration="40000" />
       <workItem from="1759650276874" duration="729000" />
       <workItem from="1759778620259" duration="5361000" />
-      <workItem from="1760858653634" duration="409000" />
+      <workItem from="1760858653634" duration="492000" />
     </task>
     <task id="LOCAL-00001" summary="test_pycharm">
       <option name="closed" value="true" />
@@ -298,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759783990960</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test check">
+      <option name="closed" value="true" />
+      <created>1760859119447</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760859119447</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +332,8 @@
     <MESSAGE value="openrouter example done" />
     <MESSAGE value="openrouter with memory" />
     <MESSAGE value="quiz_console progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="quiz_console progress" />
+    <MESSAGE value="test check" />
+    <option name="LAST_COMMIT_MESSAGE" value="test check" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ReadyAI$openrouter_exp.coverage" NAME="openrouter_exp Coverage Results" MODIFIED="1759613196519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
