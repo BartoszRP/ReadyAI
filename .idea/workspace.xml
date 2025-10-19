@@ -51,30 +51,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.app.executor": "Run",
-    "Python.chatbot_console memory_from_opanai.executor": "Run",
-    "Python.chatbot_langchain_memory_aut_session.executor": "Run",
-    "Python.openrouter_exp.executor": "Run",
-    "Python.openrouter_with_memory.executor": "Run",
-    "Python.quiz.executor": "Run",
-    "Python.replicate_exp.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/2_PROGRAMOWANIE/1_REPOS/Python_Projects/ReadyAI",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chatbot_console memory_from_opanai.executor&quot;: &quot;Run&quot;,
+    &quot;Python.chatbot_langchain_memory_aut_session.executor&quot;: &quot;Run&quot;,
+    &quot;Python.openrouter_exp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.openrouter_with_memory.executor&quot;: &quot;Run&quot;,
+    &quot;Python.quiz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.replicate_exp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/2_PROGRAMOWANIE/1_REPOS/Python_Projects/ReadyAI&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\2_PROGRAMOWANIE\1_REPOS\Python_Projects\ReadyAI" />
@@ -232,6 +232,7 @@
       <workItem from="1759649089327" duration="40000" />
       <workItem from="1759650276874" duration="729000" />
       <workItem from="1759778620259" duration="5361000" />
+      <workItem from="1760858653634" duration="409000" />
     </task>
     <task id="LOCAL-00001" summary="test_pycharm">
       <option name="closed" value="true" />
