@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8156398d-621c-4716-b03f-542d2c0787fc" name="Changes" comment="chatbot web ReadAi oraz Merito">
-      <change afterPath="$PROJECT_DIR$/Merito_Chatbot_web/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Merito_Chatbot_web/2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Merito_Chatbot_web/3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Merito_Chatbot_web/4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Merito_Chatbot_web/5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Merito_Chatbot_web/flask1.py" afterDir="false" />
+    <list default="true" id="8156398d-621c-4716-b03f-542d2c0787fc" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;Chatbot_web_version/app.py">
+      <change afterPath="$PROJECT_DIR$/Merito_Chatbot_web/flask2.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Merito_Chatbot_web/flask2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Merito_Chatbot_web/flask3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Merito_Chatbot_web/templates/flask1.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Merito_Chatbot_web/templates/flask2.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Merito_Chatbot_web/templates/flask2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Merito_Chatbot_web/templates/flask3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Merito_Chatbot_web/zadanie.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ReadyAI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ReadyAI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chatbot_web_version/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chatbot_web_version/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merito_Chatbot_web/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/Merito_Chatbot_web/flask0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Merito_Chatbot_web/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Merito_Chatbot_web/templates/flask0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merito_Chatbot_web/flask1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Merito_Chatbot_web/flask1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Merito_Chatbot_web/templates/flask1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Merito_Chatbot_web/templates/flask1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +67,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.1.executor": "Run",
     "Python.app.executor": "Run",
     "Python.chatbot.executor": "Run",
     "Python.chatbot_console memory_from_opanai.executor": "Run",
     "Python.chatbot_langchain_memory_aut_session.executor": "Run",
+    "Python.flask1.executor": "Run",
+    "Python.flask2.1.executor": "Run",
+    "Python.flask2.executor": "Run",
+    "Python.flask3.executor": "Run",
     "Python.openrouter_exp.executor": "Run",
     "Python.openrouter_with_memory.executor": "Run",
     "Python.quiz.executor": "Run",
@@ -83,7 +91,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -92,54 +100,8 @@
       <recent name="D:\2_PROGRAMOWANIE\1_REPOS\Python_Projects\ReadyAI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.flask0">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ReadyAI" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chatbot_web_version" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chatbot_web_version/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="chatbot_langchain_memory_aut_session" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ReadyAI" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chatbot_langchain_memory_aut_session.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="flask0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.flask3">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ReadyAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,7 +115,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\2_PROGRAMOWANIE\1_REPOS\Python_Projects\ReadyAI\Merito_Chatbot_web\flask0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Merito_Chatbot_web/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="openrouter_with_memory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="flask1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ReadyAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,12 +133,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Merito_Chatbot_web" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/openrouter_with_memory.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Merito_Chatbot_web/flask1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quiz" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="flask2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ReadyAI" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,12 +156,58 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Merito_Chatbot_web" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quiz.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Merito_Chatbot_web/flask2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flask2.1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReadyAI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Merito_Chatbot_web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Merito_Chatbot_web/flask2.1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flask3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ReadyAI" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Merito_Chatbot_web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Merito_Chatbot_web/flask3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.flask0" />
-        <item itemvalue="Python.app" />
-        <item itemvalue="Python.quiz" />
-        <item itemvalue="Python.chatbot_langchain_memory_aut_session" />
-        <item itemvalue="Python.openrouter_with_memory" />
+        <item itemvalue="Python.flask3" />
+        <item itemvalue="Python.flask2.1" />
+        <item itemvalue="Python.flask1" />
+        <item itemvalue="Python.flask2" />
+        <item itemvalue="Python.1" />
       </list>
     </recent_temporary>
   </component>
@@ -248,6 +256,7 @@
       <workItem from="1760859673197" duration="128000" />
       <workItem from="1760859812356" duration="164000" />
       <workItem from="1763883083030" duration="2564000" />
+      <workItem from="1763893548138" duration="8882000" />
     </task>
     <task id="LOCAL-00001" summary="test_pycharm">
       <option name="closed" value="true" />
@@ -368,13 +377,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="chatbot web ReadAi oraz Merito" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ReadyAI$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1763884017721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Merito_Chatbot_web" />
     <SUITE FILE_PATH="coverage/ReadyAI$openrouter_exp.coverage" NAME="openrouter_exp Coverage Results" MODIFIED="1759613196519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ReadyAI$openrouter_with_memory.coverage" NAME="openrouter_with_memory Coverage Results" MODIFIED="1759778712145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ReadyAI$chatbot_langchain_memory_aut_session.coverage" NAME="chatbot_langchain_memory_aut_session Coverage Results" MODIFIED="1759779004817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ReadyAI$quiz.coverage" NAME="quiz Coverage Results" MODIFIED="1759783753420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ReadyAI$1.coverage" NAME="1 Coverage Results" MODIFIED="1763893690174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Merito_Chatbot_web" />
+    <SUITE FILE_PATH="coverage/ReadyAI$chatbot.coverage" NAME="chatbot Coverage Results" MODIFIED="1763884017721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Merito_Chatbot_web" />
+    <SUITE FILE_PATH="coverage/ReadyAI$flask2_1.coverage" NAME="flask2.1 Coverage Results" MODIFIED="1763901377938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Merito_Chatbot_web" />
+    <SUITE FILE_PATH="coverage/ReadyAI$flask3.coverage" NAME="flask3 Coverage Results" MODIFIED="1763905065102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Merito_Chatbot_web" />
+    <SUITE FILE_PATH="coverage/ReadyAI$chatbot_langchain_memory_aut_session.coverage" NAME="chatbot_langchain_memory_aut_session Coverage Results" MODIFIED="1759779004817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ReadyAI$chatbot_console_memory_from_opanai.coverage" NAME="chatbot_console memory_from_opanai Coverage Results" MODIFIED="1759593877624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ReadyAI$flask1.coverage" NAME="flask1 Coverage Results" MODIFIED="1763893983662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Merito_Chatbot_web" />
     <SUITE FILE_PATH="coverage/ReadyAI$replicate_exp.coverage" NAME="replicate_exp Coverage Results" MODIFIED="1759599623124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ReadyAI$app.coverage" NAME="app Coverage Results" MODIFIED="1763883913577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chatbot_web_version" />
+    <SUITE FILE_PATH="coverage/ReadyAI$flask2.coverage" NAME="flask2 Coverage Results" MODIFIED="1763893918070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Merito_Chatbot_web" />
   </component>
 </project>
